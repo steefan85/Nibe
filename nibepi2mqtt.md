@@ -58,7 +58,7 @@
 
 ![MQTT_Verbindung](https://user-images.githubusercontent.com/24730529/174721597-d5636118-4faf-4275-a782-4b084cf7952e.jpg)
 
-- "Aktualisieren klicken.
+- "Aktualisieren" klicken.
 - Zurück in "Properties" muss jetzt noch das MQTT-Topic festgelegt werden
 - Der "Name" kann frei gewählt werden.
 
