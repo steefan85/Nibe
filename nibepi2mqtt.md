@@ -27,12 +27,12 @@
 #### Nibe-input Node hinzufügen
 
 - Unter "Eingabe" den Nibe-input Node suchen und in den Flow hinein ziehen.
-- 
+ 
 ![Node-Red_Nibeinput](https://user-images.githubusercontent.com/24730529/174719787-1bd9734c-9373-4183-b574-8dff601bc22d.jpg)
 
 - Den neu erstellten Node doppelt klicken.
-  - Die Register-Nummer konfigurieren (40072, siehe oben).
-  - Den Server belassen wir auf Standard, in meinem Fall /dev/tty/AMA0
+  - Die Register-Nummer konfigurieren (```40072```, siehe oben).
+  - Den Server belassen wir auf Standard, in meinem Fall ```/dev/tty/AMA0```
 - Jetzt haben wir lesend Zugriff auf das Register.
 
 ![Nibe_input](https://user-images.githubusercontent.com/24730529/174720111-e494026d-99fd-4358-bf91-9b4727ba1665.jpg)
@@ -81,4 +81,8 @@
 
 ![MQTT_send](https://user-images.githubusercontent.com/24730529/174723273-80b1b664-30b3-4714-8088-3f96fc986f96.jpg)
 
+## iobroker
 
+- Ab sofort sind die entsprechenden Objekte auch in iobroker sichtbar, sofern der MQTT-Server derselbe ist (hier als Beispiel die Ablufttemperatur, Register 40025)
+
+![image](https://user-images.githubusercontent.com/24730529/174724532-1b5dcac9-dd6c-4b46-950e-b70b4a9a24ca.png)
